@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif; 
+}
+
+
+body {
+    line-height: 1.4;
+    color: #3c393d; 
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 1.2rem;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: serif;
+ 
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    color: #fff;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.design {
+    padding: 4.5rem 0;
+    text-align: center;
+}
+
+.title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+}
+
+.artigos {
+    background: #f9f9f9;
+    padding: 4.5rem 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.blog-item {
+    flex: 0 1 calc(33% - 2rem); 
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.blog-item a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+.blog-item span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: 300;
+}
+
+.blog-item h2 {
+    font-family:  serif;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+footer {
+    background: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer h4 {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-item {
+        flex: 1 1 calc(50% - 2rem); 
+    }
+}
+
+.eu {
+    max-width: 40%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
